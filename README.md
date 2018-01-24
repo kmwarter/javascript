@@ -3618,4 +3618,14 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 We encourage you to fork this guide and change the rules to fit your team’s style guide. Below, you may list some amendments to the style guide. This allows you to periodically update your style guide without having to deal with merge conflicts.
 
+### Ammendments for Crux
+
+### Four Spaces
+
+  <a name="four-spaces-instead"></a><a name="ammendment-1"></a>
+  - [ammendment-1](#four-spaces-instead) We use four spaces instead of two because we find it more readable. We use spaces instead of tabs because more "professional developers" use spaces (https://insights.stackoverflow.com/survey/2017), and people who use spaces tend to get paid more apparently =) (https://stackoverflow.blog/2017/06/15/developers-use-spaces-make-money-use-tabs/). eslint: [`indent`](https://eslint.org/docs/rules/indent)
+
+  <a name="max-line-120-instead"></a><a name="ammendment-2"></a>
+  - [ammendment-2](#max-line-120-instead) We prefer a line length leeway of 120 instead of 100 to give devs a little more room to breath. eslint: [`max-len`](https://eslint.org/docs/rules/max-len)
+
 # };
